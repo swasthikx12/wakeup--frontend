@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "YourAppName",
+    "slug": "YourAppName",
+    "entryFile": "App.js" ,
+    "version": "1.0.0",
+    "permissions": ["CAMERA", "FLASHLIGHT"]
+,
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
